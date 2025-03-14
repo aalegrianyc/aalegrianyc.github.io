@@ -19,10 +19,10 @@ github_username:  aalegrianyc
 linkedin_username: amanda-alegria
 
 # Additional icon links
-additional_links:
-- title: itsgoingto.be
-  icon: fas fa-globe
-  url: https://www.itsgoingto.be
+#additional_links:
+#- title: itsgoingto.be
+#  icon: fas fa-globe
+#  url: https://www.itsgoingto.be
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
 #   url: Link url (eg. https://google.com)
@@ -35,7 +35,7 @@ additional_links:
 
 # About Section
 # about_title: About Me
-about_profile_image: images/logo.png
+about_profile_image: images\logo.png
 about_content: | # this will include new lines to allow paragraphs
   Hey! My name is Amanda, and I'm a Senior @ John Jay College about to graduate.
 
