@@ -39,7 +39,7 @@ about_profile_image: /images/logo.png
 about_content: | # this will include new lines to allow paragraphs
   Hey! My name is Amanda and I'm a Senior about to graduate. Aside from my schoolwork and personal projects, I also have experience working in the motorcycle and bar industries. I'm upbeat, game for a challenge (like building this portfolio), and fiercely curious.
 
-  I am most skilled in: <mark>spreadsheets</mark> and going <mark>Vroom</mark>
+  I am most skilled in: <mark>spreadsheets</mark> and going <mark>vroom</mark>
 
 content:
   - title: Projects # Title for the section
@@ -83,9 +83,9 @@ content:
         quote: >
           John Jay College, as part of the City University system, is an institution who's mission it is "to advance justice in its many dimensions". 
         description: | # this will include new lines to allow paragraphs
-          In my program, we explored economic behavior at the individual, national, and global levels, applying theoretical insights and analytical methods to modern-day challenges. Emphasis was placed on strengthening our quantitative reasoning skills, from critically assessing existing statistics to producing original statistical data.
+          In my program, we explored economic behavior at the individual, national, and global levels, applying theoretical insights and analytical methods to modern-day challenges. 
 
-          I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
+          Emphasis was placed on strengthening our quantitative reasoning skills, from critically assessing existing statistics to producing original statistical data.
 
   - title: A Little More About Me
     layout: text
