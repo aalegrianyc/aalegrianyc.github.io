@@ -72,7 +72,7 @@ content:
         quote: >
           I sell bikes and bike accessories.
         description: | # this will include new lines to allow paragraphs
-            Public transit wasn't popular in the shutdown times, so everyone that could was buying a vehicle to get them around. A lot of people decided that it was "now or never" moment to get a motorcycle. I was the only salesperson (outside of the general manager) to man the phones, inboxes, CRMs, and receive the clients at the shop. It was *wild* and a great time.
+            Public transit wasn't very popular in the shutdown times, so everyone that could buy a vehicle got one to them around. A lot of people decided that it was "now or never" moment to get a motorcycle. I was the only salesperson (outside of the general manager) to man the phones, inboxes, CRMs, and receive the clients at the shop. It was *wild*. I learned so much, loved being part of a such a small team, and had a great time.
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
     content:
@@ -81,7 +81,7 @@ content:
         caption: 2022 - 2025
         sub_title: BSc Economics
         quote: >
-          John Jay College, as part of the City University system, is an institution who's mission it is "to advancing justice in its many dimensions". 
+          John Jay College, as part of the City University system, is an institution who's mission it is "to advance justice in its many dimensions". 
         description: | # this will include new lines to allow paragraphs
           In my program, we explored economic behavior at the individual, national, and global levels, applying theoretical insights and analytical methods to modern-day challenges. Emphasis was placed on strengthening our quantitative reasoning skills, from critically assessing existing statistics to producing original statistical data.
 
@@ -90,11 +90,11 @@ content:
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
-      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-      - Rock climbing
-      - Gaming
-      - Knitting
-      - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
+      Along with my interests in modifying tiny cells 📊 and bikes both electric and acoustic 🏍️ 🚲, some of my other interests and hobbies are:
+      - goth / industrial music
+      - movies in other languages
+      - calisthenics
+      - any sort of meat wrapped in a carb
 
       Look at this cool image  
       ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
