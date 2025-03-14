@@ -42,7 +42,7 @@ about_content: | # this will include new lines to allow paragraphs
   I am most skilled in: <mark>data analysis</mark> and going <mark>Vroom</mark>
 
 content:
-  - Projects # Title for the section
+  - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
@@ -60,8 +60,6 @@ content:
           This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
         description: | # this will include new lines to allow paragraphs
           I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
-  
- 
   - title: title: Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
@@ -75,7 +73,6 @@ content:
           I sell bikes and bike accessories.
         description: | # this will include new lines to allow paragraphs
             Public transit wasn't popular in the shutdown times, so everyone that could was buying a vehicle to get them around. A lot of people decided that it was "now or never" moment to get a motorcycle. I was the only salesperson (outside of the general manager) to man the phones, inboxes, CRMs, and receive the clients at the shop. It was *wild* and a great time.
-
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
     content:
