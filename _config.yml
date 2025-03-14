@@ -35,7 +35,7 @@ linkedin_username: amanda-alegria
 
 # About Section
 # about_title: About Me
-about_profile_image: images/logo1.png
+about_profile_image: images\logo1.png
 about_content: | # this will include new lines to allow paragraphs
   Hey! My name is Amanda, and I'm a Senior @ John Jay College about to graduate.
 
