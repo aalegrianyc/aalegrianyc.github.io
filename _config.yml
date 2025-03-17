@@ -37,9 +37,9 @@ linkedin_username: amanda-alegria
 # about_title: About Me
 about_profile_image: /images/logo.png
 about_content: | # this will include new lines to allow paragraphs
-  Hey! My name is Amanda. Aside from my schoolwork and personal projects, I also have experience working in the powersports and bar industries. I'm upbeat, game for a challenge (like building this portfolio), and fiercely curious.
+  Hey! My name is Amanda. Aside from my schoolwork and personal projects, I also have experience working in the powersports and bar industries.
 
-  I am most skilled in: <mark>spreadsheets</mark> and going <mark>vroom</mark>
+  I am most skilled in: <mark>spreadsheets</mark>
 
 content:
   - title: Projects # Title for the section
@@ -91,7 +91,6 @@ content:
     layout: text
     content: | # this will include new lines to allow paragraphs
       Along with my interests in modifying tiny cells 📊 and bikes both electric and acoustic 🏍️ 🚲, some of my other interests and hobbies are:
-      - goth / industrial music
       - movies in other languages
       - calisthenics
       - friendship
