@@ -30,6 +30,19 @@
             height: 500px;
             border: 1px solid #ccc; /* Light border around iframes */
         }
+
+         /* Flexbox styling for the image container */
+    .image-container {
+        display: flex;  /* Flexbox applied to the image container */
+        justify-content: space-between; /* Distribute space between images */
+        gap: 10px; /* Adds space between images */
+    }
+
+    /* Styling for the images inside the container */
+    .image-container img {
+        width: 45%; /* Limits the width of each image */
+        height: auto; /* Keeps the aspect ratio intact */
+    }
     </style>
 </head>
 <body>
@@ -56,9 +69,10 @@
         </iframe>
     </div>
 
-    <img src="https://aalegrianyc.github.io/projects/income-distribution-poverty/images/distribution_money_income.png" alt="Income Distribution of Money Income">
-
-    <img src="https://aalegrianyc.github.io/projects/income-distribution-poverty/images/distribution_equi_income.png" alt="Income Distribution of Equivalence-Adjusted Income">
+    <div class="image-container">
+        <img src="https://aalegrianyc.github.io/projects/income-distribution-poverty/images/distribution_money_income.png" alt="Income Distribution of Money Income">
+        <img src="https://aalegrianyc.github.io/projects/income-distribution-poverty/images/distribution_equi_income.png" alt="Income Distribution of Equivalence-Adjusted Income">
+    </div>        
 
     <p>
         There are very slight differences between 2021 and 2022 estimates. Similarly, there are
