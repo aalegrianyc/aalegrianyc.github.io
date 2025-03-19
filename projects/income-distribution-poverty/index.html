@@ -11,9 +11,17 @@
             line-height: 1.6;
             color: #333; /* Dark text for readability */
         }
-        h1, h2 {
-            text-align: center;
+        h1 {
+            text-align: left;
         }
+
+        h2 {
+            text-align: left;
+        }
+
+        .first-line {
+            text-align: center; /* center first line under headline
+            
         p {
             text-align: justify;
             max-width: 800px;
@@ -34,22 +42,43 @@
          /* Flexbox styling for the image container */
     .image-container {
         display: flex;  /* Flexbox applied to the image container */
-        justify-content: center; /* Distribute space between images */
-        flex-wrap: wrap;
-        gap: 2px; /* Adds space between images */
+        flex-direction: column;
+        gap: 10px; /* Adds space between images */
         padding: 20px
-        background-color: #f0f0f0;
+        margin: 0 ;
+        margin-bottom: 20px;
     }
 
     /* Styling for the images inside the container */
     .image-container img {
-        width: 48%; /* Limits the width of each image */
+        width: 60%; /* Limits the width of each image */
         height: auto; /* Keeps the aspect ratio intact */
         margin: 0;
+        padding: 0;
     }
 
     .single-image-container img {
-            width: 80%;  /* Adjust width for the single image */
+            width: 60%;  /* Adjust width for the single image */
+    }
+
+    /* Styling for the closing bar */
+    .closing-bar {
+        background-color: #333;  /* Dark color for the bar */
+        height: 2px;
+        margin: 20px 0;
+        width: 100%;
+    }
+
+    .closing-section {
+        text-align: center;
+        padding: 20px;
+        background-color: #e2e2e2; /* Light gray background */
+    }
+        
+    .closing-section p {
+        font-size: 1.2rem;
+        color: #333;
+    }
         
     </style>
 </head>
