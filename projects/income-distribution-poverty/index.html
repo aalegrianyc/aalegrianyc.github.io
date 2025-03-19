@@ -9,7 +9,7 @@
             font-family: 'Helvetica', sans-serif;
             margin: 40px;
             line-height: 1.6;
-            color: #333; /* Dark text for readability */
+            color: #333; 
         }
         h1 {
             text-align: center;
@@ -46,26 +46,26 @@
         display: flex;
         justify-content: space-between;  /* Adjusts space between images */
         align-items: center;             /* Vertically aligns images */
-        gap: 10px;              /* Adds space between the images */
+        gap: 2px;              /* Adds space between the images */
         margin-bottom: 20px;
-        max-width: 800px;
-        margin: 0 auto;
     }
 
     .image-container img {
-        width: 48%;    /* Adjust image width to fit side by side */
-        height: auto;
+        flex-grow: 1'
+        width: 100%;    /* Adjust image width to fit side by side */
+        object-fit: cover;
     }
 
     /* Flexbox styling for the single image container */
     .single-image-container {
         display: flex;
-        justify-content: center; /* Center the image horizontally */  
+        justify-content: center; /* Center the image horizontally */ 
+        margin-bottom: 20px;
     }
 
     /* Styling for the single image inside the container */
     .single-image-container img {
-        width: 60%;
+        width: 80%;
     }
 
     /* Styling for the closing bar */
@@ -82,17 +82,24 @@
         line-height: 1.5;
         text-align: center;
         padding: 20px;
-        background-color: #e2e2e2; /* Light gray background */
+        background-color: #e2e2e2; 
+        color: #3333; 
+        width: 100%;
+        margin: 0 auto; 
+        display: block; 
+}
+
+
     }
         
     </style>
 </head>
 <body>
 
-    <h1>Income Distributions</h1>
+    <h1>Income Distribution and Poverty</h1>
     
     <p>
-        Hi! Below are two interactive spreadsheets showcasing different analyses. 
+        Hi! Below are two interactive spreadsheets and the charts I made with them showcasing different analyses. 
     </p>
 
     <h2>i. Income Distribution using Money and Equivalence-Adjusted Income</h2>
@@ -151,9 +158,8 @@
 
     <div class="closing-bar"></div>
     <div class="closing-section">
-        <p>If you have any questions, feel free to reach out!
-        <strong>aalegrianyc@gmail.com</strong>
-    </p>    
+        <p>If you have any questions, feel free to reach out!</p>
+        <p><strong>aalegrianyc@gmail.com</strong></p>    
     </div>
 
 </body>
