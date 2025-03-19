@@ -14,15 +14,14 @@
         h1 {
             text-align: center;
         }
-
         h2, h3 {
             text-align: left;
         }
-
-        .first-line {
-            text-align: center; /* center first line under headline
+        p:first-of-type {
+            text-align: justify;
+            max-width: 800px;
+            margin: 0 auto 20px auto;
         }
- 
         p {
             text-align: justify;
             max-width: 800px;
@@ -42,21 +41,15 @@
 
     /* Flexbox styling for the image container */
     .image-container {
-        display: flex;  /* Flexbox applied to the image container */
-        flex-direction: column;
-        gap: 10px; /* Adds space between images */
-        padding: 20px;
-        margin: 0;
-        margin-bottom: 20px;
-        align-items: center;
+        display: flex;
+        justify-content: space-between;  /* Adjusts space between images */
+        align-items: center;             /* Vertically aligns images */
+        gap: 10px;              /* Adds space between the images */
     }
 
-    /* Styling for the images inside the container */
     .image-container img {
-        width: 60%; /* Limits the width of each image */
-        height: auto; /* Keeps the aspect ratio intact */
-        margin: 0;
-        padding: 0;
+        width: 45%;    /* Adjust image width to fit side by side */
+        height: auto;
     }
 
     /* Flexbox styling for the single image container */
@@ -93,13 +86,13 @@
 </head>
 <body>
 
-    <h1>i. Income Distributions</h1>
+    <h1>Income Distributions</h1>
     
     <p>
         Hi! Below are two interactive spreadsheets showcasing different analyses. 
     </p>
 
-    <h2>Income Distribution using Money and Equivalence-Adjusted Income</h2>
+    <h2>i. Income Distribution using Money and Equivalence-Adjusted Income</h2>
     <p>
         The first is Table A-3 from the Census' data on income.
         Using the data, I created a bar plot showing the share of aggregate income for each 
