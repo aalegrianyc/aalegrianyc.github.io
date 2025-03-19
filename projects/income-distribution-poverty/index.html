@@ -34,14 +34,18 @@
          /* Flexbox styling for the image container */
     .image-container {
         display: flex;  /* Flexbox applied to the image container */
-        justify-content: space-between; /* Distribute space between images */
+        justify-content: center; /* Distribute space between images */
+        flex-wrap: wrap;
         gap: 2px; /* Adds space between images */
+        padding: 20px
+        background-color: #f0f0f0;
     }
 
     /* Styling for the images inside the container */
     .image-container img {
-        width: 45%; /* Limits the width of each image */
+        width: 48%; /* Limits the width of each image */
         height: auto; /* Keeps the aspect ratio intact */
+        margin: 0;
     }
     </style>
 </head>
