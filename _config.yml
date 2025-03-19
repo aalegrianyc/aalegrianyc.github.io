@@ -46,13 +46,13 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
-        title: Super awesome project
+        title: Income Distribution and Poverty											
         link: aalegrianyc.github.io/projects/income-distribution-poverty
         # link_text: Project Website
         additional_links:
-          - title:  sproogen/modern-resume-theme
+          - title:  Income Distribution and Poverty
             icon: fab fa-github
-            url: github.com/sproogen/modern-resume-theme
+            url: https://aalegrianyc.github.io/projects/income-distribution-poverty/
           # - title:  Github page for project (eg. sproogen/modern-resume-theme)
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
