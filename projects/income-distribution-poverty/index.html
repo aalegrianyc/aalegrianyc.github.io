@@ -33,32 +33,31 @@
             text-align: center;
             margin-bottom: 40px;
         }
+        
         iframe {
             display: block;
             margin: 0 auto;
-            width: 90%;
+            max-width: 90%;
             height: 500px;
             border: 1px solid #ccc; /* Light border around iframes */
         }
 
-    /* Flexbox styling for the image container */
-    .image-container {
+    /* Flexbox styling for image container 1 */
+    .single-image-container-1 {
         display: flex;
-        justify-content: space-between;  
-        align-items: center;
-        gap: 2px;
+        justify-content: center;  
         max-width: 90%;
         margin: 0 auto;
         padding: 10px 0;
     }
 
-    .image-container img {
-        width: 48%;    
-        object-fit: cover;
+    /* Styling for the single image inside the container */
+    .single-image-container-1 img {
+        width: 100%;    
     }
-
+        
     /* Flexbox styling for the single image container */
-    .single-image-container {
+    .single-image-container-2 {
         display: flex;
         justify-content: center; 
         max-width: 90%;
@@ -67,7 +66,21 @@
     }
 
     /* Styling for the single image inside the container */
-    .single-image-container img {
+    .single-image-container-2 img {
+        width: 100%;
+    }
+
+    /* Flexbox styling for single image container 3*/
+    .single-image-container-3 {
+        display: flex;
+        justify-content: center; 
+        max-width: 90%;
+        margin: 0 auto;
+        padding: 10px 0;
+    }
+
+    /* Styling for the single image inside the container */
+    .single-image-container-3 img {
         width: 100%;
     }
 
@@ -81,12 +94,13 @@
 
     .closing-section {
         font-family: 'Helvetica', sans-serif;
+        color: #333;
         font-size: 12px;
         line-height: 1.5;
         text-align: center;
         padding: 20px;
-        background-color: #e2e2e2; 
-        width: 100%;
+        background-color: #e2e2e2;
+        max-width: 90%
         margin: 0 auto; 
         display: block; 
 }
@@ -119,11 +133,14 @@
         </iframe>
     </div>
 
-    <div class="image-container">
+    <div class="single-image-container-1">
         <img src="https://aalegrianyc.github.io/projects/income-distribution-poverty/images/distribution_money_income.png" alt="Income Distribution of Money Income">
-        <img src="https://aalegrianyc.github.io/projects/income-distribution-poverty/images/distribution_equi_income.png" alt="Income Distribution of Equivalence-Adjusted Income">
-    </div>        
+    </div> 
 
+    <div class="single-image-container-2">
+        <img src="https://aalegrianyc.github.io/projects/income-distribution-poverty/images/distribution_equi_income.png" alt="Income Distribution of Equivalence-Adjusted Income">
+    </div>  
+    
     <p>
         There are very slight differences between 2021 and 2022 estimates. Similarly, there are
         very slight differences between money income and equivalence-adjusted income
@@ -148,7 +165,7 @@
         </iframe>
     </div>
 
-    <div class="image-container single-image-container">
+    <div class="image-container single-image-container-3">
         <img src="https://aalegrianyc.github.io/projects/income-distribution-poverty/images/poverty_rates_race_hispanic_new.png" alt="Poverty Rates by Race and Hispanic Origin">
     </div>
     
