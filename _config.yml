@@ -47,7 +47,7 @@ content:
     content:
       - layout: top-middle
         title: Super awesome project
-        link: github.com/sproogen
+        link: aalegrianyc.github.io/projects/income-distribution-poverty
         # link_text: Project Website
         additional_links:
           - title:  sproogen/modern-resume-theme
