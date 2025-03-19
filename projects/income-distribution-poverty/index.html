@@ -12,16 +12,17 @@
             color: #333; /* Dark text for readability */
         }
         h1 {
-            text-align: left;
+            text-align: center;
         }
 
-        h2 {
+        h2, h3 {
             text-align: left;
         }
 
         .first-line {
             text-align: center; /* center first line under headline
-            
+        }
+ 
         p {
             text-align: justify;
             max-width: 800px;
@@ -39,14 +40,15 @@
             border: 1px solid #ccc; /* Light border around iframes */
         }
 
-         /* Flexbox styling for the image container */
+    /* Flexbox styling for the image container */
     .image-container {
         display: flex;  /* Flexbox applied to the image container */
         flex-direction: column;
         gap: 10px; /* Adds space between images */
-        padding: 20px
-        margin: 0 ;
+        padding: 20px;
+        margin: 0;
         margin-bottom: 20px;
+        align-items: center;
     }
 
     /* Styling for the images inside the container */
@@ -57,8 +59,15 @@
         padding: 0;
     }
 
+    /* Flexbox styling for the single image container */
+    .single-image-container {
+        display: flex;
+        justify-content: center; /* Center the image horizontally */  
+    }
+
+    /* Styling for the single image inside the container */
     .single-image-container img {
-            width: 60%;  /* Adjust width for the single image */
+        width: 60%;
     }
 
     /* Styling for the closing bar */
@@ -84,7 +93,7 @@
 </head>
 <body>
 
-    <h1>Income Distributions</h1>
+    <h1>i. Income Distributions</h1>
     
     <p>
         Hi! Below are two interactive spreadsheets showcasing different analyses. 
@@ -120,7 +129,7 @@
         owning about 3%.
     </p>
 
-    <h2>Poverty Rates by Race and Hispanic Origin</h2>
+    <h2>ii. Poverty Rates by Race and Hispanic Origin</h2>
     <p>
         This is Table A-1 from the Census' data on poverty.
         I created a bar plot comparing poverty rates (percent in poverty) by Race and Hispanic Origin 
@@ -143,11 +152,13 @@
         statistically significant, I intuited that they are not because the margin of error for each
         rate is small relatively with a 90% CI.
     </p>
-    
-    <p>
-        If you have any questions, feel free to reach out!
+
+    <div class="closing-bar"></div>
+    <div class="closing-section">
+        <p>If you have any questions, feel free to reach out!
         <strong>aalegrianyc@gmail.com</strong>
-    </p>
+    </p>    
+    </div>
 
 </body>
 </html>
