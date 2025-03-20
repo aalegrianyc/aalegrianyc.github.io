@@ -39,7 +39,7 @@ about_profile_image: /images/logo.png
 about_content: | # this will include new lines to allow paragraphs
   Hey! My name is Amanda. Aside from my schoolwork and personal projects, I also have experience working in the powersports and bar industries.
 
-  I am most skilled in: <mark>spreadsheets</mark>
+  I am most skilled in: <mark>spreadsheets</mark> and <mark>data analysis</mark>
 
 content:
   - title: Projects # Title for the section
