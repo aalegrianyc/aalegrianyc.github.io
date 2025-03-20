@@ -85,9 +85,9 @@ content:
         quote: >
           John Jay College, as part of the City University system, is an institution who's mission it is "to advance justice in its many dimensions". 
         description: | # this will include new lines to allow paragraphs
-          In my program, we explored economic behavior at the individual, national, and global levels, applying theoretical insights and analytical methods to modern-day challenges. 
+          In my program, we explore economic behavior at the individual, national, and global levels, applying theory and analytical methods to modern-day challenges. 
 
-          Emphasis was placed on strengthening our quantitative reasoning skills, from critically assessing existing statistics to producing original statistical data.
+          Emphasis is placed on strengthening our quantitative reasoning skills, from critically assessing existing statistics to producing original statistical data.
 
   - title: A Little More About Me
     layout: text
