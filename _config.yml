@@ -42,6 +42,23 @@ about_content: | # this will include new lines to allow paragraphs
   I am most skilled in: <mark>spreadsheets</mark> and <mark>data analysis</mark>
 
 content:
+  - title: Experience # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Triumph
+        link: https://www.triumphbrklyn.com/
+        # link_text: triumphbrklyn.com
+        sub_title: Sales and Marketing Lead
+        caption: June 2020 - May 2021
+        quote: >
+          I sell bikes and bike accessories.
+        description: | # this will include new lines to allow paragraphs
+            Public transit wasn't very popular in the shutdown times, so everyone that could buy a vehicle got one to them around. 
+            A lot of people decided that it was "now or never" moment to get a motorcycle. I was the only salesperson (outside of 
+            the general manager) to man the phones, inboxes, CRMs, and receive the clients at the shop. It was *wild*. I learned 
+            so much, loved being part of a such a small team, and had a great time.
+            
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
@@ -62,19 +79,6 @@ content:
           The project was designed to analyze and compare income distribution trends over a two-year period post-Pandemic, 
           using Money-Income & Equivalence-Adjusted Income metrics, as well as Poverty metrics by Race. 
           
-  - title: Experience # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: left
-        title: Triumph
-        link: https://www.triumphbrklyn.com/
-        # link_text: triumphbrklyn.com
-        sub_title: Sales and Marketing Lead
-        caption: June 2020 - May 2021
-        quote: >
-          I sell bikes and bike accessories.
-        description: | # this will include new lines to allow paragraphs
-            Public transit wasn't very popular in the shutdown times, so everyone that could buy a vehicle got one to them around. A lot of people decided that it was "now or never" moment to get a motorcycle. I was the only salesperson (outside of the general manager) to man the phones, inboxes, CRMs, and receive the clients at the shop. It was *wild*. I learned so much, loved being part of a such a small team, and had a great time.
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
     content:
