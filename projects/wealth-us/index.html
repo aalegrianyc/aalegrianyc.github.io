@@ -1,1 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project: Wealth in the US</title>
+    <style>
+        body {
+            font-family: 'Helvetica', sans-serif;
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 20px;
+            line-height: 1.6;
+            color: #333; 
+        }
+        h1 {
+            text-align: center;
+        }
+        h2, h3 {
+            text-align: left;
+        }
+        p:first-of-type {
+            text-align: justify;
+            margin: 0 auto 20px auto;
+        }
+        p {
+            text-align: justify;
+            margin: 0 auto 20px auto;
+        }
+        .iframe-container {
+            text-align: center;
+            margin-bottom: 40px;
+            width: 100%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        iframe {
+            display: block;
+            width: 100%;
+            height: 500px;
+            border: 1px solid #ccc;
+        }
+
+    /* Flexbox styling for image container 1 */
+    .single-image-container-1 {
+        display: flex;
+        justify-content: center;  
+        max-width: 100%
+        margin: 0 auto;
+        padding: 20px 0;
+    }
+
+    /* Styling for the single image inside the container */
+    .single-image-container-1 img {
+        width: 100%;    
+    }
+        
+    /* Flexbox styling for the single image container 2 */
+    .single-image-container-2 {
+        display: flex;
+        justify-content: center; 
+        max-width: 100%;
+        margin: 0 auto;
+        padding: 10px 0;
+    }
+
+    /* Styling for the single image inside the container */
+    .single-image-container-2 img {
+        width: 100%;
+    }
+
+    /* Flexbox styling for single image container 3 */
+    .single-image-container-3 {
+        display: flex;
+        justify-content: center; 
+        max-width: 100%;
+        margin: 0 auto;
+        padding: 10px 0;
+        margin-bottom: 30px;
+    }
+
+    /* Styling for the single image inside the container */
+    .single-image-container-3 img {
+        width: 100%;
+    }
+
+    /* Styling for the closing bar */
+    .closing-bar {
+        background-color: #333;  /* Dark color for the bar */
+        height: 2px;
+        margin: 20px 0;
+        width: 100%;
+    }
+
+    .closing-section p {
+        font-family: 'Helvetica', sans-serif;
+        color: #333;
+        font-size: 14px;
+        line-height: 1.6;
+        text-align: center !important;
+        padding: 20px;
+        background-color: #e2e2e2;
+        max-width: 800px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+}
+        
+    </style>
+</head>
+<body>
+
+    <h1>Wealth in the US</h1>
+    
+    <p>
+        Hi! Below is an interactive spreadsheet and the pivot tables I made with them showcasing 
+        different analyses. 
+    </p>
+    <p>
+        Definitions: Money-Income refers to the total income received by a household, 
+        including wages, salaries, benefits, and other cash earnings, without adjustments for 
+        household size or composition. On the other hand, Equivalence-Adjusted Income takes into 
+        account household size and composition, adjusting the income measure to reflect the 
+        different needs of households. 
+    </p>  
+    <p>  
+        Summary: My aim was to gain a little bit more of a better understanding of the relationship 
+        between income inequality and household size or needs (reflected by equivalence adjustments) 
+        by examining each quintile and the top 5 percent of earners. While the slight changes observed 
+        between the two years might suggest some recovery post-COVID, the data continues to show 
+        significant income inequality, with the highest quintile owning about half of the nation’s wealth.
+    </p>
+    <p>
+        In the second part of this project, I just wanted a preliminary look at poverty metrics
+        as they pertained to race. The poverty rates show notable disparities that have persisted post-COVID, 
+        though the analysis suggests that racial/ethnic differences in poverty rates are statistically 
+        significant based on the margin of error.
+    </p>
+
+    <h2>i. % of Total Wealth Held by Generation </h2>
+    <p>
+        The first is Table A-3 from the Census' data on income.
+        Using the data, I created a clustered bar plot showing the share of aggregate income for each 
+        quintile and the top 5 percent for 2021 and 2022 using Money-Income.
+        Then I created a bar plot showing the same using Equivalence Adjusted Income. 
+        I wanted to see the difference between the two years and the two types of income.
+    </p>
+
+    <div class="iframe-container">
+        <iframe 
+            src="https://docs.google.com/spreadsheets/d/1H5yV2_aIUb1wZZMh7rbInXGCl--hS4gY/edit?usp=sharing&ouid=114315212370392701119&rtpof=true&sd=true">
+        </iframe>
+    </div>
+
+    <div class="single-image-container-1">
+        <img src="https://aalegrianyc.github.io/projects/income-distribution-poverty/images/distribution_money_income.png" alt="Income Distribution of Money Income">
+    </div> 
+
+    <div class="single-image-container-2">
+        <img src="https://aalegrianyc.github.io/projects/income-distribution-poverty/images/distribution_equi_income.png" alt="Income Distribution of Equivalence-Adjusted Income">
+    </div>  
+    
+    <p>
+        There are very slight differences between 2021 and 2022 estimates. Similarly, there are
+        very slight differences between money income and equivalence-adjusted income
+        estimates. It doesn't appear that the estimates reveal any statistically significant change
+        from year to year or depending on which measure is used when accounting for margin of
+        error. The sobering estimates reveal a large income disparity: are that the highest quintile
+        owns about 50% of the wealth in the US, with the top 5% owning 20% and the lowest
+        owning about 3%.
+    </p>
+
+    <h2>ii. Poverty Rates by Race and Hispanic Origin</h2>
+    <p>
+        This is Table A-1 from the Census' data on poverty.
+        I created a bar plot comparing poverty rates (percent in poverty) by Race and Hispanic Origin 
+        for 2022, including error bars based on the reported margins of error. 
+        I was looking to see if the differences in poverty rates seemed statistically significant.
+    </p>
+
+    <div class="iframe-container">
+        <iframe 
+            src="https://docs.google.com/spreadsheets/d/1Ycvww4kiO5inUmafHtwFcsVMIEuwX0Q4/edit?usp=sharing&ouid=114315212370392701119&rtpof=true&sd=true">
+        </iframe>
+    </div>
+
+    <div class="image-container single-image-container-3">
+        <img src="https://aalegrianyc.github.io/projects/income-distribution-poverty/images/poverty_rates_race_hispanic_new.png" alt="Poverty Rates by Race and Hispanic Origin">
+    </div>
+    
+    <p>
+        But without a rigorous method to have accurately determined if the differences are 
+        statistically significant, I intuited that they are because the margin of error for each
+        rate is small relatively with a 90% CI.
+    </p>
+
+    <div class="closing-bar"></div>
+    <div class="closing-section">
+        <p>If you have any questions, feel free to reach out!</p>
+        <p><strong>aalegrianyc@gmail.com</strong></p>    
+    </div>
+
+</body>
+</html>
+
+</body>
+</html>
+            
 
