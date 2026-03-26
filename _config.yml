@@ -7,7 +7,7 @@ version: 2
 
 # Personal info
 name: Amanda Alegria
-title: Student looking for work!
+title: Data Analyst
 email: aalegrianyc@gmail.com
 website: http://aalegrianyc.github.io
 
@@ -37,7 +37,7 @@ linkedin_username: amanda-alegria
 # about_title: About Me
 about_profile_image: /images/logo.png
 about_content: | # this will include new lines to allow paragraphs
-  Hey! My name is Amanda. Aside from my schoolwork and personal projects, I also have experience working in the powersports and bar industries.
+  Hey! My name is Amanda. Aside from my schoolwork and personal projects, I also have experience working in the powersports, corporate events, and hospitality industries.
 
   I am most skilled in: <mark>spreadsheets</mark> and <mark>data analysis</mark>
 
@@ -62,10 +62,14 @@ content:
           The project was designed to analyze and compare income distribution trends over a two-year period post-Pandemic, 
           using Money-Income & Equivalence-Adjusted Income metrics, as well as Poverty metrics by Race. 
 
-
-          - title:  Time Poverty and Commute Times in NYC (2019-2023)
-            icon: fab fa-github
-            url: https://aalegrianyc.github.io/projects/income-distribution-poverty/
+          - layout: top-middle
+            title:  Time Poverty and Commute Times in NYC (2019-2023)
+            link: aalegrianyc.github.io/projects/income-distribution-poverty
+            #link_text: Project Website
+            additional_links:
+          -  title:  Time Poverty and Commute Times in NYC (2019-2023)
+             icon: fab fa-github
+             url: https;//aalegrianyc.github.io/projects/income-distribution-poverty/
           # - title:  Github page for project (eg. sproogen/modern-resume-theme)
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
