@@ -53,7 +53,9 @@ content:
             icon: fab fa-github
             url: https://github.com/aalegrianyc/projects/income-distribution-poverty
         description: |
-          The project analyzed income distribution trends over a two-year post-pandemic period, focusing on Money Income, Equivalence-Adjusted Income, and poverty differences across race.
+          <div style="max-width: 700px;">
+            The project analyzed income distribution trends over a two-year post-pandemic period...
+          </div>
 
       - layout: top-middle
         title: Time Poverty and Commute Times in NYC (2019–2023)
