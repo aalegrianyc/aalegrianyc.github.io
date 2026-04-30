@@ -62,7 +62,6 @@ content:
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
-@@ -62,56 +79,43 @@
           The project was designed to analyze and compare income distribution trends over a two-year period post-Pandemic, 
           using Money-Income & Equivalence-Adjusted Income metrics, as well as Poverty metrics by Race. 
           
