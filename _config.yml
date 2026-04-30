@@ -1,19 +1,121 @@
-remote_theme: sproogen/resume-theme
+# Site
+repository: sproogen/resume-theme
+favicon: images/favicon.ico
 
-plugins:
-  - jekyll-seo-tag
+# Content configuration version
+version: 2
 
+# Personal info
 name: Amanda Alegria
-title: Data Analyst
+title: Student looking for work!
+email: aalegrianyc@gmail.com
+website: http://aalegrianyc.github.io
 
-about_content: |
-  Test bio
+# Dark Mode (true/false/never)
+darkmode: false
+
+# Social links
+github_username:  aalegrianyc
+linkedin_username: amanda-alegria
+
+# Additional icon links
+#additional_links:
+#- title: itsgoingto.be
+#  icon: fas fa-globe
+#  url: https://www.itsgoingto.be
+# - title: another link
+#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
+#   url: Link url (eg. https://google.com)
+
+# Google Analytics and Tag Manager
+# Using more than one of these may cause issues with reporting
+# gtm: "GTM-0000000"
+# gtag: "UA-00000000-0"
+# google_analytics: "UA-00000000-0"
+
+# About Section
+# about_title: About Me
+about_profile_image: /images/logo.png
+about_content: | # this will include new lines to allow paragraphs
+  Hey! My name is Amanda. Aside from my schoolwork and personal projects, I also have experience working in the powersports and bar industries.
+
+  I am most skilled in: <mark>spreadsheets</mark> and <mark>data analysis</mark>
 
 content:
-  - title: Test Section
-    layout: list
+  - title: Experience # Title for the section
+    layout: list # Type of content section (list/text)
     content:
-      - layout: top-middle
-        title: It works if you see this
-        description: |
-          If this appears, your site is fixed.
+      - layout: left
+        title: Triumph
+        link: https://www.triumphbrklyn.com/
+        # link_text: triumphbrklyn.com
+        sub_title: Sales and Marketing Lead
+        caption: June 2020 - May 2021
+        quote: >
+          I sell bikes and bike accessories.
+        description: | # this will include new lines to allow paragraphs
+            Public transit wasn't very popular in the shutdown times, so everyone that could buy a vehicle got one to them around. 
+            A lot of people decided that it was "now or never" moment to get a motorcycle. I was the only salesperson (outside of 
+            the general manager) to man the phones, inboxes, CRMs, and receive the clients at the shop. It was *wild*. I learned 
+            so much, loved being part of a such a small team, and had a great time.
+            
+  - title: Projects # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+@@ -62,56 +79,43 @@
+          The project was designed to analyze and compare income distribution trends over a two-year period post-Pandemic, 
+          using Money-Income & Equivalence-Adjusted Income metrics, as well as Poverty metrics by Race. 
+          
+  - title: Experience # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Triumph
+        link: https://www.triumphbrklyn.com/
+        # link_text: triumphbrklyn.com
+        sub_title: Sales and Marketing Lead
+        caption: June 2020 - May 2021
+        quote: >
+          I sell bikes and bike accessories.
+        description: | # this will include new lines to allow paragraphs
+            Public transit wasn't very popular in the shutdown times, so everyone that could buy a vehicle got one to them around. A lot of people decided that it was "now or never" moment to get a motorcycle. I was the only salesperson (outside of the general manager) to man the phones, inboxes, CRMs, and receive the clients at the shop. It was *wild*. I learned so much, loved being part of a such a small team, and had a great time.
+  - title: Education # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: CUNY John Jay College
+        caption: 2022 - 2025
+        sub_title: BSc Economics
+        quote: >
+          John Jay College, as part of the City University system, is an institution who's mission it is "to advance justice in its many dimensions". 
+        description: | # this will include new lines to allow paragraphs
+          In my program, we explore economic behavior at the individual, national, and global levels, applying theory and analytical methods to modern-day challenges. 
+
+          Emphasis is placed on strengthening our quantitative reasoning skills, from critically assessing existing statistics to producing original statistical data.
+
+  - title: A Little More About Me
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      Along with my interests in modifying tiny cells 📊 and bikes both electric and acoustic 🏍️ 🚲, some of my other interests and hobbies are:
+      - movies in other languages
+      - calisthenics
+      - friendship
+      - any sort of protein wrapped in a carb
+      - teaching my cat how to do cool tricks
+      - not in that order
+
+    
+
+# Footer
+footer_show_references: true
+# references_title: References on request (Override references text)
+
+# Build settings
+remote_theme: sproogen/resume-theme
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
