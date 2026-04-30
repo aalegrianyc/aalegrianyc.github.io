@@ -46,18 +46,6 @@ content:
     layout: list
     content:
       - layout: top-middle
-        title: Income Distribution and Poverty
-        link: https://aalegrianyc.github.io/projects/income-distribution-poverty
-        additional_links:
-          - title: Income Distribution and Poverty
-            icon: fab fa-github
-            url: https://github.com/aalegrianyc/projects/income-distribution-poverty
-        description: |
-          <div style="max-width: 700px;">
-            The project analyzed income distribution trends over a two-year post-pandemic period...
-          </div>
-
-      - layout: top-middle
         title: Time Poverty and Commute Times in NYC (2019–2023)
         link: https://aalegrianyc.github.io/projects/income-distribution-poverty
         additional_links:
@@ -65,7 +53,21 @@ content:
             icon: fab fa-github
             url: https://github.com/aalegrianyc/projects/income-distribution-poverty
         description: |
-          This project examines how commute times relate to time poverty in NYC, analyzing structural inequalities in mobility between 2019–2023.
+          <div style="max-width: 650px; margin: 0 auto; text-align: center;">
+            This project examines how commute times relate to time poverty in NYC, analyzing structural inequalities in mobility between 2019–2023.
+          </div>
+
+      - layout: top-middle
+        title: Income Distribution and Poverty
+        link: https://aalegrianyc.github.io/projects/income-distribution-poverty
+        additional_links:
+          - title: Income Distribution and Poverty
+            icon: fab fa-github
+            url: https://github.com/aalegrianyc/projects/income-distribution-poverty
+        description: |
+          <div style="max-width: 650px; margin: 0 auto; text-align: center;">
+            The project analyzed income distribution trends over a two-year post-pandemic period, focusing on disparities across income, race, and gender.
+          </div>
           
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
