@@ -62,7 +62,7 @@ content:
         link: https://aalegrianyc.github.io/projects/income-distribution-poverty
         additional_links:
           - title: Income Distribution and Poverty
-            icon: fab fa-github
+            icon: commute.png
             url: https://github.com/aalegrianyc/projects/income-distribution-poverty
         description: |
           <div style="max-width: 650px; margin: 0 auto; text-align: center;">
