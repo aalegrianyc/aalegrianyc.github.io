@@ -53,14 +53,9 @@ content:
             icon: fab fa-github
             url: https://github.com/aalegrianyc/projects/income-distribution-poverty
         description: |
-          <div style="max-width: 650px; margin: 0 auto; font-size: inherit;">
-            <p>
-              This project examines how commute times relate to time poverty in NYC, analyzing structural inequalities in mobility between 2019–2023.
-            </p>
-          </div>
-              This project examines how commute times relate to time poverty in NYC, analyzing structural inequalities in mobility between 2019–2023.
-            </p>
-          </div>
+          The project was designed to analyze and compare income distribution trends over a two-year period post-Pandemic,
+          
+          using Money-Income & Equivalence-Adjusted Income metrics, as well as Poverty metrics by Race. 
 
       - layout: top-middle
         title: Income Distribution and Poverty
