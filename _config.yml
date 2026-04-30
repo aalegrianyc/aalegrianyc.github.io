@@ -41,7 +41,7 @@ about_content: | # this will include new lines to allow paragraphs
 
   I am most skilled in: <mark>spreadsheets</mark> and <mark>data analysis</mark>
 
-  content:
+content:
   - title: Projects
     layout: list
     content:
