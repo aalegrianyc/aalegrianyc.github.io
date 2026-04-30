@@ -2,3 +2,18 @@ remote_theme: sproogen/resume-theme
 
 plugins:
   - jekyll-seo-tag
+
+name: Amanda Alegria
+title: Data Analyst
+
+about_content: |
+  Test bio
+
+content:
+  - title: Test Section
+    layout: list
+    content:
+      - layout: top-middle
+        title: It works if you see this
+        description: |
+          If this appears, your site is fixed.
