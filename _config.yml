@@ -50,7 +50,7 @@ content:
         link: https://aalegrianyc.github.io/projects/income-distribution-poverty
         additional_links:
           - title: Project Repository
-            icon: fab fa-github
+            icon: /images/commute.png
             url: https://github.com/aalegrianyc/projects/income-distribution-poverty
         description: |
           The project was designed to analyze and compare income distribution trends over a two-year period post-Pandemic,
