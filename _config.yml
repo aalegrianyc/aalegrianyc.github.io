@@ -3,11 +3,11 @@ repository: sproogen/resume-theme
 favicon: images/favicon.ico
 
 # Content configuration version
-# version: 2
+version: 2
 
 # Personal info
 name: Amanda Alegria
-title: Data Analyst
+title: Student looking for work!
 email: aalegrianyc@gmail.com
 website: http://aalegrianyc.github.io
 
@@ -37,25 +37,11 @@ linkedin_username: amanda-alegria
 # about_title: About Me
 about_profile_image: /images/logo.png
 about_content: | # this will include new lines to allow paragraphs
-  Hey! My name is Amanda. Aside from my schoolwork and personal projects, I also have experience working in the powersports, corporate events, and hospitality industries.
+  Hey! My name is Amanda. Aside from my schoolwork and personal projects, I also have experience working in the powersports and bar industries.
 
   I am most skilled in: <mark>spreadsheets</mark> and <mark>data analysis</mark>
 
 content:
-  - title: Projects
-    layout: list
-    content:
-      - layout: top-middle
-        title: Income Distribution and Poverty
-        link: https://aalegrianyc.github.io/projects/income-distribution-poverty
-        additional_links:
-          - title: Income Distribution and Poverty
-            icon: fab fa-github
-            url: https://github.com/aalegrianyc/projects/income-distribution-poverty
-        description: |
-          The project was designed to analyze and compare income distribution trends over a two-year period post-Pandemic, 
-          using Money-Income & Equivalence-Adjusted Income metrics, as well as Poverty metrics by Race.
-
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
@@ -73,6 +59,26 @@ content:
             the general manager) to man the phones, inboxes, CRMs, and receive the clients at the shop. It was *wild*. I learned 
             so much, loved being part of a such a small team, and had a great time.
             
+  - title: Projects # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: top-middle
+        title: Income Distribution and Poverty											
+        link: aalegrianyc.github.io/projects/income-distribution-poverty
+        # link_text: Project Website
+        additional_links:
+          - title:  Income Distribution and Poverty
+            icon: fab fa-github
+            url: https://aalegrianyc.github.io/projects/income-distribution-poverty/
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        #quote: >
+          # This is probably one of the greatest spreadsheets ever created, and once I upload it, you'll see.
+        description: | # this will include new lines to allow paragraphs
+          The project was designed to analyze and compare income distribution trends over a two-year period post-Pandemic, 
+          using Money-Income & Equivalence-Adjusted Income metrics, as well as Poverty metrics by Race. 
+          
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
     content:
@@ -91,11 +97,12 @@ content:
     layout: text
     content: | # this will include new lines to allow paragraphs
       Along with my interests in modifying tiny cells 📊 and bikes both electric and acoustic 🏍️ 🚲, some of my other interests and hobbies are:
-      - sewing
-      - movies @ IFC
-      - RuPaul's Drag Race 
-      - teaching my cat new tricks
-
+      - movies in other languages
+      - calisthenics
+      - friendship
+      - any sort of protein wrapped in a carb
+      - teaching my cat how to do cool tricks
+      - not in that order
 
     
 
@@ -105,6 +112,10 @@ footer_show_references: true
 
 # Build settings
 remote_theme: sproogen/resume-theme
+
+sass:
+  sass_dir: _sass
+  style: compressed
 
 plugins:
  - jekyll-seo-tag
