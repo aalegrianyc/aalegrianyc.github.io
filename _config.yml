@@ -41,38 +41,29 @@ about_content: | # this will include new lines to allow paragraphs
 
   I am most skilled in: <mark>spreadsheets</mark> and <mark>data analysis</mark>
 
-content:       
-  - title: Projects # Title for the section
- layout: list # Type of content section (list/text)
+content:
+  - title: Projects
+    layout: list
     content:
       - layout: top-middle
-        title: Income Distribution and Poverty											
-        link: aalegrianyc.github.io/projects/income-distribution-poverty
-        # link_text: Project Website
+        title: Income Distribution and Poverty
+        link: https://aalegrianyc.github.io/projects/income-distribution-poverty
         additional_links:
-          - title:  Income Distribution and Poverty
+          - title: Income Distribution and Poverty
             icon: fab fa-github
-            url: https://aalegrianyc.github.io/projects/income-distribution-poverty/
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        #quote: >
-          # This is probably one of the greatest spreadsheets ever created, and once I upload it, you'll see.
-        description: | # this will include new lines to allow paragraphs
-          The project was designed to analyze and compare income distribution trends over a two-year period post-Pandemic, 
-          using Money-Income & Equivalence-Adjusted Income metrics, as well as Poverty metrics by Race. 
+            url: https://github.com/aalegrianyc/projects/income-distribution-poverty
+        description: |
+          The project analyzed income distribution trends over a two-year post-pandemic period, focusing on Money Income, Equivalence-Adjusted Income, and poverty differences across race.
 
-        - title:  Time Poverty and Commute Times in NYC (2019-2023)
-          icon: fab fa-github
-          url: https://aalegrianyc.github.io/projects/income-distribution-poverty/
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        #quote: >
-          # This is probably one of the greatest spreadsheets ever created, and once I upload it, you'll see.
-        description: | # this will include new lines to allow paragraphs
-          The project was designed to analyze and compare income distribution trends over a two-year period post-Pandemic, 
-          using Money-Income & Equivalence-Adjusted Income metrics, as well as Poverty metrics by Race. 
+      - layout: top-middle
+        title: Time Poverty and Commute Times in NYC (2019–2023)
+        link: https://aalegrianyc.github.io/projects/income-distribution-poverty
+        additional_links:
+          - title: Project Repository
+            icon: fab fa-github
+            url: https://github.com/aalegrianyc/projects/income-distribution-poverty
+        description: |
+          This project examines how commute times relate to time poverty in NYC, analyzing structural inequalities in mobility between 2019–2023.
           
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
