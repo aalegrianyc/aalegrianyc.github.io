@@ -53,8 +53,10 @@ content:
             icon: fab fa-github
             url: https://github.com/aalegrianyc/projects/income-distribution-poverty
         description: |
-          <div style="max-width: 650px; margin: 0 auto; text-align: center;">
-            This project examines how commute times relate to time poverty in NYC, analyzing structural inequalities in mobility between 2019–2023.
+          <div style="max-width: 650px; margin: 0 auto;">
+            <p style="text-align: center;">
+              This project examines how commute times relate to time poverty in NYC, analyzing structural inequalities in mobility between 2019–2023.
+            </p>
           </div>
 
       - layout: top-middle
