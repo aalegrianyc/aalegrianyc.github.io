@@ -56,17 +56,6 @@ about_content: | # this will include new lines to allow paragraphs
           The project was designed to analyze and compare income distribution trends over a two-year period post-Pandemic, 
           using Money-Income & Equivalence-Adjusted Income metrics, as well as Poverty metrics by Race.
 
-      - layout: top-middle
-        title: Time Poverty and Commute Times in NYC (2019-2023)
-        link: https://aalegrianyc.github.io/projects/time-poverty-commute
-        additional_links:
-          - title: Time Poverty and Commute Times in NYC
-            icon: fab fa-github
-            url: https://github.com/aalegrianyc/projects/time-poverty-commute
-        description: |
-          This project analyzes the impact of commute times on time poverty in NYC from 2019–2023, 
-          highlighting disparities across boroughs and demographic groups.
-          
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
